@@ -6,7 +6,7 @@ from app.crud import books_router
 # Create database tables
 Base.metadata.create_all(bind=engine)
 
-app = FastAPI(title="Books API", description="CRUD API for managing books", version="1.0.0")
+app = FastAPI(title="Books API", description="CRUD API for managing books use credentails user1:password to test", version="1.0.0")
 
 # Include routers
 app.include_router(auth_router, prefix="/auth", tags=["Authentication"])
