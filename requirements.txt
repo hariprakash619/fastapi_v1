@@ -7,3 +7,4 @@ bcrypt==3.2.0 passlib
 pyjwt
 python-dotenv
 python-jose
+python-multipart
