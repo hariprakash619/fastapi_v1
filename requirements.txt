@@ -3,6 +3,7 @@ uvicorn
 sqlalchemy
 pydantic
 passlib[bcrypt]
+bcrypt==3.2.0 passlib
 pyjwt
 python-dotenv
 python-jose
